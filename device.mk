@@ -294,6 +294,10 @@ DEVICE_PACKAGE_OVERLAYS += \
 
 PRODUCT_ENFORCE_RRO_TARGETS += *
 
+# Perf
+PRODUCT_PACKAGES += \
+    vendor.qti.hardware.perf@2.2.vendor
+
 # Perf QTI component
 PRODUCT_PACKAGES += \
     android.hardware.thermal@2.0 \
