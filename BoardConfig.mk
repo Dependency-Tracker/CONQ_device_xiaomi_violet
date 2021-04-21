@@ -19,6 +19,7 @@ DEVICE_PATH := device/xiaomi/violet
 BUILD_BROKEN_DUP_RULES := true
 PRODUCT_VENDOR_MOVE_ENABLED := true
 BUILD_BROKEN_USES_BUILD_COPY_HEADERS := true
+SELINUX_IGNORE_NEVERALLOWS := true
 
 # Inherit from proprietary files
 include vendor/xiaomi/violet/BoardConfigVendor.mk
